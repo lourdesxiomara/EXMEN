@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>iZone | Teléfonos iPhone</title>
+  <meta name="description" content="Encuentra tu próximo iPhone: compara modelos, precios y beneficios exclusivos.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Navegación -->
+  <header class="nav">
+    <div class="container nav__inner">
+      <a href="#" class="logo">iZone</a>
+      <button class="nav__toggle" aria-label="Abrir menú" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="nav__links">
+        <a href="#modelos">Modelos</a>
+        <a href="#caracteristicas">Características</a>
+        <a href="#comparar">Comparar</a>
+        <a href="#opiniones">Opiniones</a>
+        <a href="#contacto" class="btn btn--small">Comprar</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="container hero__inner">
+      <div class="hero__text reveal">
+        <span class="eyebrow">Nuevo · Serie 17</span>
+        <h1>El iPhone que<br><span class="gradient-text">estabas esperando.</span></h1>
+        <p>Titanio, cámaras profesionales y una batería que te acompaña todo el día. Encuentra el modelo perfecto para ti con envío gratis y hasta 12 meses sin intereses.</p>
+        <div class="hero__actions">
+          <a href="#modelos" class="btn">Ver modelos</a>
+          <a href="#comparar" class="btn btn--ghost">Comparar</a>
+        </div>
+        <ul class="hero__badges">
+          <li>✓ Garantía oficial</li>
+          <li>✓ Envío en 24 h</li>
+          <li>✓ Plan de canje</li>
+        </ul>
+      </div>
+
+      <div class="hero__visual reveal">
+        <div class="phone phone--back">
+          <div class="phone__camera">
+            <i></i><i></i><i></i>
+          </div>
+        </div>
+        <div class="phone phone--front">
+          <div class="phone__island"></div>
+          <div class="phone__screen">
+            <span class="phone__time">9:41</span>
+            <span class="phone__date">Martes, 20 de octubre</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Modelos -->
+  <section id="modelos" class="section">
+    <div class="container">
+      <div class="section__head reveal">
+        <span class="eyebrow">Catálogo</span>
+        <h2>Elige tu iPhone</h2>
+        <p>Cuatro modelos, un mismo nivel de calidad.</p>
+      </div>
+
+      <div class="filters reveal">
+        <button class="chip is-active" data-filter="all">Todos</button>
+        <button class="chip" data-filter="pro">Pro</button>
+        <button class="chip" data-filter="standard">Estándar</button>
+      </div>
+
+      <div class="grid grid--4">
+        <article class="card reveal" data-type="pro">
+          <span class="tag">Más vendido</span>
+          <div class="card__phone" style="--c1:#ff8a3d; --c2:#c4501a;"></div>
+          <h3>iPhone 17 Pro Max</h3>
+          <p class="card__desc">Pantalla de 6,9", el zoom más largo y la mejor batería.</p>
+          <div class="swatches">
+            <span style="background:#ff8a3d" title="Naranja cósmico"></span>
+            <span style="background:#2c3e66" title="Azul profundo"></span>
+            <span style="background:#e3e3e3" title="Plata"></span>
+          </div>
+          <p class="price">Desde <strong>$1,199</strong></p>
+          <a href="#contacto" class="btn btn--block">Comprar</a>
+        </article>
+
+        <article class="card reveal" data-type="pro">
+          <div class="card__phone" style="--c1:#3a5488; --c2:#1d2b4a;"></div>
+          <h3>iPhone 17 Pro</h3>
+          <p class="card__desc">Todo el poder Pro en un tamaño de 6,3".</p>
+          <div class="swatches">
+            <span style="background:#ff8a3d" title="Naranja cósmico"></span>
+            <span style="background:#2c3e66" title="Azul profundo"></span>
+            <span style="background:#e3e3e3" title="Plata"></span>
+          </div>
+          <p class="price">Desde <strong>$1,099</strong></p>
+          <a href="#contacto" class="btn btn--block">Comprar</a>
+        </article>
+
+        <article class="card reveal" data-type="standard">
+          <span class="tag tag--alt">Ultradelgado</span>
+          <div class="card__phone card__phone--thin" style="--c1:#dfe9f5; --c2:#a9bdd6;"></div>
+          <h3>iPhone Air</h3>
+          <p class="card__desc">El iPhone más delgado jamás creado. Ligero y potente.</p>
+          <div class="swatches">
+            <span style="background:#dfe9f5" title="Azul cielo"></span>
+            <span style="background:#f2e6cf" title="Oro claro"></span>
+            <span style="background:#1c1c1e" title="Negro espacial"></span>
+          </div>
+          <p class="price">Desde <strong>$999</strong></p>
+          <a href="#contacto" class="btn btn--block">Comprar</a>
+        </article>
+
+        <article class="card reveal" data-type="standard">
+          <div class="card__phone" style="--c1:#b9a8e0; --c2:#7d68b8;"></div>
+          <h3>iPhone 17</h3>
+          <p class="card__desc">Pantalla ProMotion de 120 Hz y cámara de 48 MP.</p>
+          <div class="swatches">
+            <span style="background:#b9a8e0" title="Lavanda"></span>
+            <span style="background:#a9d3c0" title="Salvia"></span>
+            <span style="background:#1c1c1e" title="Negro"></span>
+          </div>
+          <p class="price">Desde <strong>$799</strong></p>
+          <a href="#contacto" class="btn btn--block">Comprar</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Características -->
+  <section id="caracteristicas" class="section section--dark">
+    <div class="container">
+      <div class="section__head reveal">
+        <span class="eyebrow">Por qué iPhone</span>
+        <h2>Diseñado para durar.<br>Hecho para sorprender.</h2>
+      </div>
+
+      <div class="grid grid--3">
+        <div class="feature reveal">
+          <div class="feature__icon">📸</div>
+          <h3>Cámara profesional</h3>
+          <p>Sistema de 48 MP con zoom óptico, modo Retrato avanzado y video en 4K a 120 fps.</p>
+        </div>
+        <div class="feature reveal">
+          <div class="feature__icon">⚡</div>
+          <h3>Chip ultrarrápido</h3>
+          <p>Rendimiento de nivel computadora para juegos, edición y Apple Intelligence.</p>
+        </div>
+        <div class="feature reveal">
+          <div class="feature__icon">🔋</div>
+          <h3>Batería todo el día</h3>
+          <p>Hasta 39 horas de reproducción de video y carga rápida al 50 % en 20 minutos.</p>
+        </div>
+        <div class="feature reveal">
+          <div class="feature__icon">🛡️</div>
+          <h3>Resistencia extrema</h3>
+          <p>Ceramic Shield en ambos lados y resistencia al agua IP68 hasta 6 metros.</p>
+        </div>
+        <div class="feature reveal">
+          <div class="feature__icon">🔒</div>
+          <h3>Privacidad primero</h3>
+          <p>Face ID y procesamiento en el dispositivo para que tus datos sigan siendo tuyos.</p>
+        </div>
+        <div class="feature reveal">
+          <div class="feature__icon">🛰️</div>
+          <h3>Seguridad satelital</h3>
+          <p>SOS de emergencia y mensajes vía satélite cuando no tienes cobertura.</p>
+        </div>
+      </div>
+
+      <div class="stats reveal">
+        <div><strong data-count="48">0</strong><span>MP de cámara</span></div>
+        <div><strong data-count="120">0</strong><span>Hz ProMotion</span></div>
+        <div><strong data-count="39">0</strong><span>Horas de video</span></div>
+        <div><strong data-count="6">0</strong><span>Años de actualizaciones*</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Comparar -->
+  <section id="comparar" class="section">
+    <div class="container">
+      <div class="section__head reveal">
+        <span class="eyebrow">Comparativa</span>
+        <h2>¿Cuál es para ti?</h2>
+      </div>
+
+      <div class="table-wrap reveal">
+        <table class="compare">
+          <thead>
+            <tr>
+              <th></th>
+              <th>17 Pro Max</th>
+              <th>17 Pro</th>
+              <th>Air</th>
+              <th>17</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td>Pantalla</td><td>6,9"</td><td>6,3"</td><td>6,5"</td><td>6,3"</td></tr>
+            <tr><td>ProMotion 120 Hz</td><td>✓</td><td>✓</td><td>✓</td><td>✓</td></tr>
+            <tr><td>Cámaras traseras</td><td>3 × 48 MP</td><td>3 × 48 MP</td><td>1 × 48 MP</td><td>2 × 48 MP</td></tr>
+            <tr><td>Zoom óptico</td><td>8×</td><td>8×</td><td>2×</td><td>2×</td></tr>
+            <tr><td>Material</td><td>Aluminio</td><td>Aluminio</td><td>Titanio</td><td>Aluminio</td></tr>
+            <tr><td>Almacenamiento máx.</td><td>2 TB</td><td>1 TB</td><td>1 TB</td><td>512 GB</td></tr>
+            <tr class="compare__price"><td>Precio</td><td>$1,199</td><td>$1,099</td><td>$999</td><td>$799</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- Opiniones -->
+  <section id="opiniones" class="section section--soft">
+    <div class="container">
+      <div class="section__head reveal">
+        <span class="eyebrow">Clientes felices</span>
+        <h2>Lo que dicen de nosotros</h2>
+      </div>
+      <div class="grid grid--3">
+        <blockquote class="quote reveal">
+          <p>“Cambié mi teléfono viejo con el plan de canje y me llegó el 17 Pro al día siguiente. ¡Increíble!”</p>
+          <footer><span class="avatar">MR</span> María R. <small>★★★★★</small></footer>
+        </blockquote>
+        <blockquote class="quote reveal">
+          <p>“El iPhone Air es ligerísimo. Las fotos nocturnas son otro nivel.”</p>
+          <footer><span class="avatar">CL</span> Carlos L. <small>★★★★★</small></footer>
+        </blockquote>
+        <blockquote class="quote reveal">
+          <p>“Pagué a meses sin intereses y la atención por WhatsApp fue rapidísima.”</p>
+          <footer><span class="avatar">AS</span> Ana S. <small>★★★★☆</small></footer>
+        </blockquote>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA / Contacto -->
+  <section id="contacto" class="section">
+    <div class="container">
+      <div class="cta reveal">
+        <div>
+          <h2>Reserva tu iPhone hoy</h2>
+          <p>Déjanos tu correo y un asesor te contactará con la mejor oferta.</p>
+        </div>
+        <form class="cta__form" id="leadForm" novalidate>
+          <input type="email" id="email" placeholder="tucorreo@ejemplo.com" required aria-label="Correo electrónico">
+          <select id="model" aria-label="Modelo de interés">
+            <option>iPhone 17 Pro Max</option>
+            <option>iPhone 17 Pro</option>
+            <option>iPhone Air</option>
+            <option>iPhone 17</option>
+          </select>
+          <button type="submit" class="btn btn--light">Quiero mi iPhone</button>
+          <p class="cta__msg" id="formMsg" role="status"></p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <a href="#" class="logo">iZone</a>
+      <p>© 2026 iZone. Distribuidor independiente. iPhone es una marca registrada de Apple Inc.</p>
+      <p class="footer__note">*Especificaciones y precios de referencia, sujetos a cambios.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
